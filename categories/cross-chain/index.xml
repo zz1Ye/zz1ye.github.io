@@ -11,16 +11,18 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jul 2024 15:23:54 +0800</lastBuildDate><atom:link href="https://zz1ye.github.io/categories/cross-chain/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jul 2024 16:25:09 +0800</lastBuildDate><atom:link href="https://zz1ye.github.io/categories/cross-chain/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cross Chain</title>
-      <link>https://zz1ye.github.io/posts/cross-chain/</link>
-      <pubDate>Wed, 24 Jul 2024 15:23:54 +0800</pubDate>
+      <title>A Taxonomy of Cross Chain Bridges</title>
+      <link>https://zz1ye.github.io/cross-chain/a-taxonomy-of-cross-chain-bridges/</link>
+      <pubDate>Wed, 24 Jul 2024 16:25:09 +0800</pubDate>
       
-      <guid>https://zz1ye.github.io/posts/cross-chain/</guid>
-      <description>根据打钱机制，Arjun Chand将打钱分为三类：
- 确定 + 铸造：这类跨链桥会确定原链上的财物，并铸造等量方针链上的财物。 毁掉 + 铸造 ：这类跨链桥会毁掉（burn) 原链上的财物，并铸造等量方针链上的财物。 原子交换：经过依赖于自我履行的智能合约完结财物兑换，原子交换的去信赖化程度为三种最高。  依据 Andre Cronje 的分类，打钱办法分为四类：
- 余额变动：用户将财物确定在源链的智能合约中以后，预言机通知方针链上的跨链合约，然后使方针链搬运财物给到用户的接收地址。 确定+铸造/毁掉：当用户将财物确定在跨链桥指定的地址或许智能合约中，跨链桥将会在方针链铸造等量的财物并搬运到用户在方针链的账户中。 流动性置换/双向资金池模型：使用桥在方针链建立好的资金池，经过桥的跨链财物完结跨链， 例如 USDC (Ethereum)&amp;gt; anyUSDC 置换成 USDC (Fantom)。 打包+铸造/毁掉：使用桥在方针链和源链建立好的资金池，进行两次置换，经过桥的跨链财物完结跨链，例如 USDC 置换成 anyUSDC (Ethereum) &amp;gt; anyUSDC 置换成 USDC (Fantom)。  为了一致打钱机制的分类，把打钱机制分为三种：流动性置换（即需求布置流动性池）、确定+铸造/毁掉（无需布置流动性池）和原子置换。</description>
+      <guid>https://zz1ye.github.io/cross-chain/a-taxonomy-of-cross-chain-bridges/</guid>
+      <description>根据打钱机制，Arjun Chand将打钱分为三类(https://zhuanlan.zhihu.com/p/502270013)：
+ 确定 + 铸造：这类跨链桥会确定原链上的财物，并铸造等量方针链上的财物。  “锁定/销毁 + 铸造”会锁定或销毁源链上的原生资产，同时在目标链上铸造等量的包装资产以实现资金跨链传递。但这种解决方案并没有实现真正的资金跨链。用户在目标链上的包装资产仅代表用户在源链上资金的证明，原生资产并没有被转移。目前，使用“锁定/销毁+铸造”方案的跨链桥包括 WBTC、Multichain、Wormhole。(https://tokeninsight.com/zh/tokenwiki/all/what-is-cross-chain-bridge)
+ 毁掉 + 铸造 ：这类跨链桥会毁掉（burn) 原链上的财物，并铸造等量方针链上的财物。 原子交换：经过依赖于自我履行的智能合约完结财物兑换，原子交换的去信赖化程度为三种最高。  依据 Andre Cronje 的分类，打钱办法分为四类：
+ 余额变动：用户将财物确定在源链的智能合约中以后，预言机通知方针链上的跨链合约，然后使方针链搬运财物给到用户的接收地址。 确定+铸造/毁掉：当用户将财物确定在跨链桥指定的地址或许智能合约中，跨链桥将会在方针链铸造等量的财物并搬运到用户在方针链的账户中。 流动性置换/双向资金池模型：使用桥在方针链建立好的资金池，经过桥的跨链财物完结跨链， 例如 USDC (Ethereum)&amp;gt; anyUSDC 置换成 USDC (Fantom)。  “流动性互换”方案依靠智能合约实现。跨链桥首先需要在源链和目标链上各建立一个流动性资金池。在资产转移时，用户的资金会被存入源链上的流动性池，然后从目标链的资金池中取出等值资产。这种解决方案真正实现了资金跨链，但它不支持非智能合约平台（Bitcoin）和目标链内不可用的资产（XRP 在以太坊网络中不可用）。目前，使用“流动性互换”方案的跨链桥包括 Synapse Protocol、Stargate Finance、Hop Protocol 。
+ 打包+铸造/毁掉：使用桥在方针链和源链建立好的资金池，进行两次置换，经过桥的跨链财物完结跨链，例如 USDC 置换成 anyUSDC (Ethereum) &amp;gt; anyUSDC 置换成 USDC (Fantom)。  为了一致打钱机制的分类，把打钱机制分为三种：流动性置换（即需求布置流动性池）、确定+铸造/毁掉（无需布置流动性池）和原子置换。</description>
     </item>
     
   </channel>

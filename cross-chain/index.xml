@@ -11,14 +11,36 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jul 2024 16:20:38 +0800</lastBuildDate><atom:link href="https://zz1ye.github.io/cross-chain/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jul 2024 16:25:09 +0800</lastBuildDate><atom:link href="https://zz1ye.github.io/cross-chain/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Taxonomy of Cross Chain Bridges</title>
+      <link>https://zz1ye.github.io/cross-chain/a-taxonomy-of-cross-chain-bridges/</link>
+      <pubDate>Wed, 24 Jul 2024 16:25:09 +0800</pubDate>
+      
+      <guid>https://zz1ye.github.io/cross-chain/a-taxonomy-of-cross-chain-bridges/</guid>
+      <description>根据打钱机制，Arjun Chand将打钱分为三类(https://zhuanlan.zhihu.com/p/502270013)：
+ 确定 + 铸造：这类跨链桥会确定原链上的财物，并铸造等量方针链上的财物。  “锁定/销毁 + 铸造”会锁定或销毁源链上的原生资产，同时在目标链上铸造等量的包装资产以实现资金跨链传递。但这种解决方案并没有实现真正的资金跨链。用户在目标链上的包装资产仅代表用户在源链上资金的证明，原生资产并没有被转移。目前，使用“锁定/销毁+铸造”方案的跨链桥包括 WBTC、Multichain、Wormhole。(https://tokeninsight.com/zh/tokenwiki/all/what-is-cross-chain-bridge)
+ 毁掉 + 铸造 ：这类跨链桥会毁掉（burn) 原链上的财物，并铸造等量方针链上的财物。 原子交换：经过依赖于自我履行的智能合约完结财物兑换，原子交换的去信赖化程度为三种最高。  依据 Andre Cronje 的分类，打钱办法分为四类：
+ 余额变动：用户将财物确定在源链的智能合约中以后，预言机通知方针链上的跨链合约，然后使方针链搬运财物给到用户的接收地址。 确定+铸造/毁掉：当用户将财物确定在跨链桥指定的地址或许智能合约中，跨链桥将会在方针链铸造等量的财物并搬运到用户在方针链的账户中。 流动性置换/双向资金池模型：使用桥在方针链建立好的资金池，经过桥的跨链财物完结跨链， 例如 USDC (Ethereum)&amp;gt; anyUSDC 置换成 USDC (Fantom)。  “流动性互换”方案依靠智能合约实现。跨链桥首先需要在源链和目标链上各建立一个流动性资金池。在资产转移时，用户的资金会被存入源链上的流动性池，然后从目标链的资金池中取出等值资产。这种解决方案真正实现了资金跨链，但它不支持非智能合约平台（Bitcoin）和目标链内不可用的资产（XRP 在以太坊网络中不可用）。目前，使用“流动性互换”方案的跨链桥包括 Synapse Protocol、Stargate Finance、Hop Protocol 。
+ 打包+铸造/毁掉：使用桥在方针链和源链建立好的资金池，进行两次置换，经过桥的跨链财物完结跨链，例如 USDC 置换成 anyUSDC (Ethereum) &amp;gt; anyUSDC 置换成 USDC (Fantom)。  为了一致打钱机制的分类，把打钱机制分为三种：流动性置换（即需求布置流动性池）、确定+铸造/毁掉（无需布置流动性池）和原子置换。</description>
+    </item>
+    
     <item>
       <title>Cross Chain Bridges: A Definition</title>
       <link>https://zz1ye.github.io/cross-chain/cross-chain-bridges-a-definition/</link>
       <pubDate>Wed, 24 Jul 2024 16:20:38 +0800</pubDate>
       
       <guid>https://zz1ye.github.io/cross-chain/cross-chain-bridges-a-definition/</guid>
-      <description></description>
+      <description>https://blog.chain.link/cross-chain-bridge-zh/#%E8%B7%A8%E9%93%BE%E6%A1%A5%E7%9A%84%E7%A7%8D%E7%B1%BB
+https://tokeninsight.com/zh/tokenwiki/all/what-is-cross-chain-bridge
+随着区块链技术的发展，Web3生态正朝着多链的世界衍化。目前，有上百条区块链和L2网络都部署了各种去中心化应用，每个网络都有自己的安全和信任机制。然而，正是由于每条链都会制定自己的规则，比如协议设计、货币、编程语言、治理架构以及文化等，因此，区块链间本身无法相互交流，即区块链无法监控或追踪其他区块链网络中发生的事情。随着以太坊为首的智能合约平台生态的发展，用户为了体验不同平台上的各种应用，催生出了将资金在不同平台上流转的需求。同时，越来越多的 DeFi 项目希望从多条区块链中获取更多流动性。跨链桥应运而生。
+跨链桥是帮助用户将其数字资产从一个区块链转移到另一个区块链的协议。它可以被看作是一个在不同的区块链之间进行价值转移的“桥梁”。
+跨链资产转移 目前市场中常见的跨链桥资金转移方案主要有两种：“锁定/销毁 + 铸造”和“流动性互换”。
+“锁定/销毁 + 铸造”会锁定或销毁源链上的原生资产，同时在目标链上铸造等量的包装资产以实现资金跨链传递。但这种解决方案并没有实现真正的资金跨链。用户在目标链上的包装资产仅代表用户在源链上资金的证明，原生资产并没有被转移。目前，使用“锁定/销毁+铸造”方案的跨链桥包括 WBTC、Multichain、Wormhole。 “流动性互换”方案依靠智能合约实现。跨链桥首先需要在源链和目标链上各建立一个流动性资金池。在资产转移时，用户的资金会被存入源链上的流动性池，然后从目标链的资金池中取出等值资产。这种解决方案真正实现了资金跨链，但它不支持非智能合约平台（Bitcoin）和目标链内不可用的资产（XRP 在以太坊网络中不可用）。目前，使用“流动性互换”方案的跨链桥包括 Synapse Protocol、Stargate Finance、Hop Protocol 。
+跨链消息传递 除了资金跨链外，跨链桥还涉及一项关键技术——跨链通信，即如何检测跨链桥两端的网络状态并传递信息。目前市场中的跨链桥协议一般使用两种跨链通信技术：“单方/多方验证”和“中继器+轻客户端”。
+“单方/多方验证”通过单方或者多方进行跨链通信。其中，“单方验证”为中心化，由一些声誉较好的机构进行跨链资产的托管及交易的执行。目前，使用“单方验证”方案的跨链桥包括：WBTC、Wormhole。而“多方验证”的运作模式与区块链的运作模式类似，依靠多个节点通过共识机制共同完成跨链通信。使用“多方验证”方案的跨链协议包括 Multichain、Synapse。 “中继器+轻客户端”方案要求在源链和目标链上分别部署一个智能合约，用于收集交易请求、交易状态、并负责执行交易。同时，该方案会引入一个第三方中继器，用于同步并验证交易信息。中继器是负责将信息从一方传递到另一方的第三方服务机构。在跨链通信时，它通常负责连接链之间的交易信息同步。目前，使用“中继器+轻客户端”的跨链桥包括 Cosmos（IBC 作为中继器）、LayerZero（默认使用自身的 Relayer 作为中继器，也支持第三方部署）。
+参考文献 [1] https://tokeninsight.com/zh/tokenwiki/all/what-is-cross-chain-bridge
+[2]</description>
     </item>
     
   </channel>

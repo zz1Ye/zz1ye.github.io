@@ -18,7 +18,9 @@
       <pubDate>Wed, 24 Jul 2024 15:23:54 +0800</pubDate>
       
       <guid>https://zz1ye.github.io/posts/cross-chain/</guid>
-      <description>Hello world!</description>
+      <description>根据打钱机制，Arjun Chand将打钱分为三类：
+ 确定 + 铸造：这类跨链桥会确定原链上的财物，并铸造等量方针链上的财物。 毁掉 + 铸造 ：这类跨链桥会毁掉（burn) 原链上的财物，并铸造等量方针链上的财物。 原子交换：经过依赖于自我履行的智能合约完结财物兑换，原子交换的去信赖化程度为三种最高。  依据 Andre Cronje 的分类，打钱办法分为四类：
+ 余额变动：用户将财物确定在源链的智能合约中以后，预言机通知方针链上的跨链合约，然后使方针链搬运财物给到用户的接收地址。 确定+铸造/毁掉：当用户将财物确定在跨链桥指定的地址或许智能合约中，跨链桥将会在方针链铸造等量的财物并搬运到用户在方针链的账户中。 流动性置换/双向资金池模型：使用桥在方针链建立好的资金池，经过桥的跨链财物完结跨链， 例如 USDC (Ethereum)&amp;gt; anyUSDC 置换成 USDC (Fantom)。 打包+铸造/毁掉：使用桥在方针链和源链建立好的资金池，进行两次置换，经过桥的跨链财物完结跨链，例如 USDC 置换成 anyUSDC (Ethereum) &amp;gt; anyUSDC 置换成 USDC (Fantom)。  为了一致打钱机制的分类，把打钱机制分为三种：流动性置换（即需求布置流动性池）、确定+铸造/毁掉（无需布置流动性池）和原子置换。</description>
     </item>
     
   </channel>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>https://zz1ye.github.io/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>first on My New Hugo Site</title>
+    <link>https://zz1ye.github.io/tags/first/</link>
+    <description>Recent content in first on My New Hugo Site</description>
     <image>
       <title>My New Hugo Site</title>
       <url>https://zz1ye.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jul 2024 15:31:56 +0800</lastBuildDate><atom:link href="https://zz1ye.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jul 2024 15:31:56 +0800</lastBuildDate><atom:link href="https://zz1ye.github.io/tags/first/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Page</title>
       <link>https://zz1ye.github.io/page/</link>
@@ -19,15 +19,6 @@
       
       <guid>https://zz1ye.github.io/page/</guid>
       <description>Desc Text.</description>
-    </item>
-    
-    <item>
-      <title>Cross Chain</title>
-      <link>https://zz1ye.github.io/posts/cross-chain/</link>
-      <pubDate>Wed, 24 Jul 2024 15:23:54 +0800</pubDate>
-      
-      <guid>https://zz1ye.github.io/posts/cross-chain/</guid>
-      <description>Hello world!</description>
     </item>
     
   </channel>

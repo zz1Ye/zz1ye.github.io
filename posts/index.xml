@@ -4,6 +4,11 @@
     <title>Posts on My New Hugo Site</title>
     <link>https://zz1ye.github.io/posts/</link>
     <description>Recent content in Posts on My New Hugo Site</description>
+    <image>
+      <title>My New Hugo Site</title>
+      <url>https://zz1ye.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://zz1ye.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Jul 2024 15:23:54 +0800</lastBuildDate><atom:link href="https://zz1ye.github.io/posts/index.xml" rel="self" type="application/rss+xml" />

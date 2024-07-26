@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Categories on My New Hugo Site</title>
+    <title>Categories on Ye&#39;Log</title>
     <link>https://zz1ye.github.io/categories/</link>
-    <description>Recent content in Categories on My New Hugo Site</description>
+    <description>Recent content in Categories on Ye&#39;Log</description>
     <image>
-      <title>My New Hugo Site</title>
+      <title>Ye&#39;Log</title>
       <url>https://zz1ye.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://zz1ye.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>zzy_nic@126.com (zz1ye)</managingEditor>
+    <webMaster>zzy_nic@126.com (zz1ye)</webMaster>
     <lastBuildDate>Wed, 24 Jul 2024 21:48:11 +0800</lastBuildDate><atom:link href="https://zz1ye.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cross-chain</title>
       <link>https://zz1ye.github.io/categories/cross-chain/</link>
       <pubDate>Wed, 24 Jul 2024 21:48:11 +0800</pubDate>
-      
+      <author>zzy_nic@126.com (zz1ye)</author>
       <guid>https://zz1ye.github.io/categories/cross-chain/</guid>
       <description></description>
     </item>

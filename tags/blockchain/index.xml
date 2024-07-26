@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blockchain on Ye&#39;Log</title>
+    <link>https://zz1ye.github.io/tags/blockchain/</link>
+    <description>Recent content in Blockchain on Ye&#39;Log</description>
+    <image>
+      <title>Ye&#39;Log</title>
+      <url>https://zz1ye.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://zz1ye.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>zzy_nic@126.com (zz1ye)</managingEditor>
+    <webMaster>zzy_nic@126.com (zz1ye)</webMaster>
+    <lastBuildDate>Fri, 26 Jul 2024 09:42:20 +0800</lastBuildDate><atom:link href="https://zz1ye.github.io/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What About ERC 20?</title>
+      <link>https://zz1ye.github.io/blockchain/what-about-erc-20/</link>
+      <pubDate>Fri, 26 Jul 2024 09:42:20 +0800</pubDate>
+      <author>zzy_nic@126.com (zz1ye)</author>
+      <guid>https://zz1ye.github.io/blockchain/what-about-erc-20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ethereum Transactions Demystified: A Guide for the Curious</title>
+      <link>https://zz1ye.github.io/blockchain/ethereum-transactions-demystified-a-guide-for-the-curious/</link>
+      <pubDate>Fri, 26 Jul 2024 09:37:34 +0800</pubDate>
+      <author>zzy_nic@126.com (zz1ye)</author>
+      <guid>https://zz1ye.github.io/blockchain/ethereum-transactions-demystified-a-guide-for-the-curious/</guid>
+      <description>以太坊交易模型是以账户为中心的模型（账户余额模型），它包含外部账户（external owned accounts, EOAs）和合约账户两类（contract accou</description>
+    </item>
+    
+  </channel>
+</rss>

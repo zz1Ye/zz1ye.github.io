@@ -29,7 +29,7 @@
       <pubDate>Fri, 26 Jul 2024 09:37:34 +0800</pubDate>
       <author>zzy_nic@126.com (zz1ye)</author>
       <guid>https://zz1ye.github.io/blockchain/ethereum-transactions-demystified-a-guide-for-the-curious/</guid>
-      <description>以太坊交易模型是以账户为中心的模型，它包含外部账户和合约账户两类$^{[1]}$。 以太坊交易可以完成的主要功能包括： 转账 合约创建 合约调用 以太</description>
+      <description>以太坊交易模型是以账户为中心的模型（账户余额模型），它包含外部账户（external owned accounts, EOAs）和合约账户两类（contract accou</description>
     </item>
     
   </channel>

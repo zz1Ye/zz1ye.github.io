@@ -3,8 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://zz1ye.github.io/posts/</loc>
+    <lastmod>2024-07-27T11:32:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zz1ye.github.io/tags/</loc>
+    <lastmod>2024-07-27T11:32:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zz1ye.github.io/tags/web3/</loc>
+    <lastmod>2024-07-27T11:32:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zz1ye.github.io/posts/web3/what-is-web3.0/</loc>
+    <lastmod>2024-07-27T11:32:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zz1ye.github.io/</loc>
+    <lastmod>2024-07-27T11:32:10+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zz1ye.github.io/tags/blockchain/</loc>
-    <lastmod>2024-07-26T09:42:20+08:00</lastmod>
+    <lastmod>2024-07-27T10:49:57+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zz1ye.github.io/posts/blockchain/the-new-digital-gold-rush-web3-chain-assets/</loc>
+    <lastmod>2024-07-27T10:49:57+08:00</lastmod>
   </url>
   
   <url>
@@ -18,17 +48,7 @@
   </url>
   
   <url>
-    <loc>https://zz1ye.github.io/tags/</loc>
-    <lastmod>2024-07-26T09:42:20+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://zz1ye.github.io/blockchain/what-about-erc-20/</loc>
-    <lastmod>2024-07-26T09:42:20+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zz1ye.github.io/</loc>
     <lastmod>2024-07-26T09:42:20+08:00</lastmod>
   </url>
   

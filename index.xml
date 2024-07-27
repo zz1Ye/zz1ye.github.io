@@ -13,14 +13,32 @@
     <language>en-us</language>
     <managingEditor>zzy_nic@126.com (zz1ye)</managingEditor>
     <webMaster>zzy_nic@126.com (zz1ye)</webMaster>
-    <lastBuildDate>Fri, 26 Jul 2024 09:42:20 +0800</lastBuildDate><atom:link href="https://zz1ye.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Jul 2024 11:32:10 +0800</lastBuildDate><atom:link href="https://zz1ye.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>What About ERC 20?</title>
+      <title>What Is Web3</title>
+      <link>https://zz1ye.github.io/posts/web3/what-is-web3.0/</link>
+      <pubDate>Sat, 27 Jul 2024 11:32:10 +0800</pubDate>
+      <author>zzy_nic@126.com (zz1ye)</author>
+      <guid>https://zz1ye.github.io/posts/web3/what-is-web3.0/</guid>
+      <description>How: Web3 Feature Web3的很多特征还不明确，但是国外很多文章认为，它和区块链有关。 Web1.0是用户读取互联网，Web2.0是用户写入互联网，Web3</description>
+    </item>
+    
+    <item>
+      <title>The New Digital Gold Rush: Web3 Chain Assets</title>
+      <link>https://zz1ye.github.io/posts/blockchain/the-new-digital-gold-rush-web3-chain-assets/</link>
+      <pubDate>Sat, 27 Jul 2024 10:49:57 +0800</pubDate>
+      <author>zzy_nic@126.com (zz1ye)</author>
+      <guid>https://zz1ye.github.io/posts/blockchain/the-new-digital-gold-rush-web3-chain-assets/</guid>
+      <description>如果使用区块链作为服务器，那么就意味着用户可以共享多个应用的数据。以游戏应用场景为例，用户可以在一个账户中包含腾讯的英雄联盟、网易的永劫无间</description>
+    </item>
+    
+    <item>
+      <title>What About ERC-20?</title>
       <link>https://zz1ye.github.io/blockchain/what-about-erc-20/</link>
       <pubDate>Fri, 26 Jul 2024 09:42:20 +0800</pubDate>
       <author>zzy_nic@126.com (zz1ye)</author>
       <guid>https://zz1ye.github.io/blockchain/what-about-erc-20/</guid>
-      <description></description>
+      <description>ERC-20是以太坊网络的代币标准。ERC表示以太坊征求意见（Ethereum Request For Comments），20表示区块链中的提案标识符。ERC-</description>
     </item>
     
     <item>

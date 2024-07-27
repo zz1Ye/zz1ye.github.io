@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Ye&#39;Log</title>
-    <link>https://zz1ye.github.io/posts/</link>
-    <description>Recent content in Posts on Ye&#39;Log</description>
+    <title>Web3 on Ye&#39;Log</title>
+    <link>https://zz1ye.github.io/tags/web3/</link>
+    <description>Recent content in Web3 on Ye&#39;Log</description>
     <image>
       <title>Ye&#39;Log</title>
       <url>https://zz1ye.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -13,7 +13,7 @@
     <language>en-us</language>
     <managingEditor>zzy_nic@126.com (zz1ye)</managingEditor>
     <webMaster>zzy_nic@126.com (zz1ye)</webMaster>
-    <lastBuildDate>Sat, 27 Jul 2024 11:32:10 +0800</lastBuildDate><atom:link href="https://zz1ye.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Jul 2024 11:32:10 +0800</lastBuildDate><atom:link href="https://zz1ye.github.io/tags/web3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What Is Web3</title>
       <link>https://zz1ye.github.io/posts/web3/what-is-web3.0/</link>
@@ -21,15 +21,6 @@
       <author>zzy_nic@126.com (zz1ye)</author>
       <guid>https://zz1ye.github.io/posts/web3/what-is-web3.0/</guid>
       <description>How: Web3 Feature Web3的很多特征还不明确，但是国外很多文章认为，它和区块链有关。 Web1.0是用户读取互联网，Web2.0是用户写入互联网，Web3</description>
-    </item>
-    
-    <item>
-      <title>The New Digital Gold Rush: Web3 Chain Assets</title>
-      <link>https://zz1ye.github.io/posts/blockchain/the-new-digital-gold-rush-web3-chain-assets/</link>
-      <pubDate>Sat, 27 Jul 2024 10:49:57 +0800</pubDate>
-      <author>zzy_nic@126.com (zz1ye)</author>
-      <guid>https://zz1ye.github.io/posts/blockchain/the-new-digital-gold-rush-web3-chain-assets/</guid>
-      <description>如果使用区块链作为服务器，那么就意味着用户可以共享多个应用的数据。以游戏应用场景为例，用户可以在一个账户中包含腾讯的英雄联盟、网易的永劫无间</description>
     </item>
     
   </channel>

@@ -24,24 +24,6 @@
     </item>
     
     <item>
-      <title>What About Celer cBridge?</title>
-      <link>https://zz1ye.github.io/cross-chain/what-about-celer-cbridge/</link>
-      <pubDate>Wed, 24 Jul 2024 21:46:58 +0800</pubDate>
-      <author>zzy_nic@126.com (zz1ye)</author>
-      <guid>https://zz1ye.github.io/cross-chain/what-about-celer-cbridge/</guid>
-      <description>https://www.jianshu.com/p/751287d2656e https://zhuanlan.zhihu.com/p/413231070 cBridge 是一个支持高速低成本的跨链支付网络，允许用户通过该网络在任何以太坊Layer 2，以太坊主链，以及其它Layer1 或Layer 2之间进行</description>
-    </item>
-    
-    <item>
-      <title>A Taxonomy of Cross Chain Bridges</title>
-      <link>https://zz1ye.github.io/cross-chain/a-taxonomy-of-cross-chain-bridges/</link>
-      <pubDate>Wed, 24 Jul 2024 16:25:09 +0800</pubDate>
-      <author>zzy_nic@126.com (zz1ye)</author>
-      <guid>https://zz1ye.github.io/cross-chain/a-taxonomy-of-cross-chain-bridges/</guid>
-      <description>根据打钱机制，Arjun Chand将打钱分为三类(https://zhuanlan.zhihu.com/p/502270013)： 确定 + 铸造</description>
-    </item>
-    
-    <item>
       <title>Cross Chain Bridges: A Definition</title>
       <link>https://zz1ye.github.io/cross-chain/cross-chain-bridges-a-definition/</link>
       <pubDate>Wed, 24 Jul 2024 16:20:38 +0800</pubDate>
